@@ -36,4 +36,4 @@ CREATE TABLE learning_materials(
 );
 
 
-select lm.title, lm.description,f.url from learning_materials as lm join files as f on lm.file_id = f.id
+select lm.title, lm.description,f.url from learning_materials as lm join files as f on lm.file_id = f.id;

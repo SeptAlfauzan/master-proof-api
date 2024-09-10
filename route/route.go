@@ -1,9 +1,10 @@
 package route
 
 import (
-	"github.com/gofiber/fiber/v2"
 	"master-proof-api/controller"
 	"master-proof-api/middleware"
+
+	"github.com/gofiber/fiber/v2"
 )
 
 func SetupRoute(app *fiber.App, userController controller.UserController, learningMaterialController controller.LearningMaterialController) {
